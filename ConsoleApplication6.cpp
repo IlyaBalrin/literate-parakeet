@@ -5,8 +5,8 @@ int main() {
 	while (c < 1000000) {
 		int X;
 		int Y;
-		X = rand()% 801;
-		Y = rand() % 601;
+		X = rand()% 8001;
+		Y = rand() % 6001;
 		SetCursorPos(X, Y);
 		c++;
 	}
